@@ -1,0 +1,21 @@
+{
+    "name": "core/config",
+    "description": "Config module",
+    "keywords": ["support modules"],
+    "homepage": "https://page.org",
+    "type": "module-type",
+    "license": "",
+    "support": {
+    },
+    "autoload": {
+        "psr-4": { "app\\modules\\config\\": ""}
+    },
+    "require": {
+        "php": "^7.1.3"
+    },
+    "config": {
+        "process-timeout": 9999,
+        "disable-tls": true,
+        "secure-http": false
+    }
+}
